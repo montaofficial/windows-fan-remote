@@ -1,0 +1,20 @@
+{
+  "name": "windows-fan-remote",
+  "version": "1.0.0",
+  "description": "Remote IP controller for FanControl.exe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Windows",
+    "Fan",
+    "Controller",
+    "Remote"
+  ],
+  "author": "Simone Montanari",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^8.16.0"
+  }
+}

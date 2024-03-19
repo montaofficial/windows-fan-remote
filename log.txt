@@ -1,0 +1,9 @@
+
+19/03/2024 15:47:21: An other instance of FanControl was running under user "simon". It was was closed to start this new instance.
+19/03/2024 15:47:23: LibreHardwareMonitor.Hardware.Psu.Corsair.CommunicationProtocolError: Error communicating with the PSU controller at \\?\hid#vid_1b1c&pid_1c1f#9&3a4d29ab&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}: Can't read product
+   at LibreHardwareMonitor.Hardware.Psu.Corsair.UsbApi.FwInfo(HidStream stream) in C:\Users\Remi\source\repos\FanControl\LibreHardwareMonitor\LibreHardwareMonitorLib\Hardware\Psu\Corsair\CorsairPsu.cs:line 343
+   at LibreHardwareMonitor.Hardware.Psu.Corsair.CorsairPsu..ctor(HidDevice device, ISettings settings, Int32 index) in C:\Users\Remi\source\repos\FanControl\LibreHardwareMonitor\LibreHardwareMonitorLib\Hardware\Psu\Corsair\CorsairPsu.cs:line 49
+   at LibreHardwareMonitor.Hardware.Psu.Corsair.CorsairPsuGroup..ctor(ISettings settings) in C:\Users\Remi\source\repos\FanControl\LibreHardwareMonitor\LibreHardwareMonitorLib\Hardware\Psu\Corsair\CorsairPsuGroup.cs:line 51
+   at LibreHardwareMonitor.Hardware.Computer.AddGroups() in C:\Users\Remi\source\repos\FanControl\LibreHardwareMonitor\LibreHardwareMonitorLib\Hardware\Computer.cs:line 536
+   at LibreHardwareMonitor.Hardware.Computer.Open() in C:\Users\Remi\source\repos\FanControl\LibreHardwareMonitor\LibreHardwareMonitorLib\Hardware\Computer.cs:line 496
+   at FanControl.Domain.BackendProviders.LHM.LHMBackendProvider.Open()
